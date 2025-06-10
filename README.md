@@ -2,6 +2,8 @@ This little project is a way to generate vector displacement maps from meshes in
 
 Vector displacement can be used to add life to a static mesh, replace expensive cloth sims, etc.
 
+A few dependencies worth mentioning:  The code requires numpy and OpenEXR.
+
 example:
 
 normalize_factor = vector_displacement.create_displacement_map('my_base_geo', 'my_target_geo', 'C:/displacementPath/my_target_geo.exr', (1024, 1024), pixel_extend=2)
